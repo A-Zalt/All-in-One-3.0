@@ -17,7 +17,7 @@ client.on("ready", () => {
     console.log(`[${new Date()}] Logged in!`)
 })
 reloadEvent.on("reload", async(command) => {
-    delete require.cache[`C:\\bots\\aio rewrite 2\\commands\\${command}.js`]
+    delete require.cache[`${__dirname}\\commands\\${command}.js`] && delete require.cache[`${__dirname}/commands/${command}.js`]
     console.log(`[${new Date()}] Unloading command ${command}`)
     try {
         info.commands[command] = require(`./commands/${command}.js`)
