@@ -13,7 +13,7 @@ fs.readdirSync("./commands").forEach((c) => {
     console.log(`[${new Date()}] Loaded command ${c.substr(0, c.length-3)}`)
 })
 client.on("ready", () => {
-    client.user.setActivity("3.0 Alpha! | aio.help")
+    client.user.setActivity(`3.0 Alpha! | ${config.prefix}help`)
     console.log(`[${new Date()}] Logged in!`)
 })
 reloadEvent.on("reload", async(command) => {
