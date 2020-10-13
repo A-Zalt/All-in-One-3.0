@@ -18,6 +18,7 @@ module.exports = {
                 {"name": l10n(lang, "info_guilds_title"), "value": bot.guilds.cache.size},
                 {"name": l10n(lang, "info_users_title"), "value": bot.users.cache.size},
                 {"name": l10n(lang, "info_channels_title"), "value": bot.channels.cache.size},
+                {"name": l10n(lang, "info_github_repo_title"), "value": "https://github.com/A-Zalt/All-in-One-3.0/"},
             ])
             .setFooter(l10n(lang, "invoked_by").replace(/{tag}/g, message.author.tag))
             .setTimestamp()
