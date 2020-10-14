@@ -60,6 +60,7 @@
     "info_users_title": "User count",
     "info_channels_title": "Channel count",
     "info_emojis_title": "Emoji count",
+    "info_github_repo_title": "Github Repo",
     
     "code_title": "💻 Code",
     "code_notenoughargs": "You must provide a valid programming language and code!",
@@ -133,5 +134,13 @@
     "purge_title": "🗑️ Purging messages",
     "purge_notenoughargs": "You must provide the amount of messages!",
     "purge_wrongnumber": "The number is either invalid, lesser than 2 or greater than 100!",
-    "purge_success": "Successfully purged {howmany} messages."
+    "purge_success": "Successfully purged {howmany} messages.",
+
+    "serverinfo_title": "Server info",
+    "serverinfo_id": "Server ID",
+    "serverinfo_icon_url": "Icon URL",
+    "serverinfo_region": "Server region",
+    "serverinfo_owner": "Server owner",
+    "serverinfo_membercount": "Member count",
+    "serverinfo_members": "Total: {total}\nOnline: {online}\nIdle: {idle}\nDo not Disturb: {dnd}\nOffline/Invisible: {offline}"
 }
