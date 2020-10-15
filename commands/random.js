@@ -55,7 +55,7 @@ module.exports = {
                         .setDescription(l10n(lang, "random_invalidargsnumber"))
                     )
                 }
-                message.channel.send(embed.setDescription(l10n(lang, "random_choosenumber").replace(/{min}/g, args[1]).replace(/{max}/g, args[1]).replace(/{rand}/g, Math.round(Math.random()*Number(args[2])+Number(args[1])-1))))
+                message.channel.send(embed.setDescription(l10n(lang, "random_choosenumber").replace(/{min}/g, args[1]).replace(/{max}/g, args[2]).replace(/{rand}/g, Math.floor(Math.random() * (Number(args[2]) - Number(args[1]) + 1)) + Number(args[1]))))
                 break
             case "member":
                 message.channel.send(embed.setDescription(l10n(lang, "random_choosemember").replace(/{member}/g, message.guild.members.cache.random().user.tag)))
