@@ -5,6 +5,8 @@ Prefix: **aio.**
 
 Invite link: [Click here](https://discord.com/oauth2/authorize?client_id=670682136495390720&permissions=0&scope=bot)
 
+If you speak any language the bot has not been translated to, feel free to make a pull request.
+
 ## TODO:
 - [ ] Full guild info command
 - [ ] Aliases for commands
