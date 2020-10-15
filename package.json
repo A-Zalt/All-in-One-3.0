@@ -1,0 +1,22 @@
+{
+  "name": "all-in-one",
+  "version": "3.0.0",
+  "description": "My public (poorly coded bot)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Zalt/All-in-One-3.0.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "A_Zalt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/A-Zalt/All-in-One-3.0/issues"
+  },
+  "homepage": "https://github.com/A-Zalt/All-in-One-3.0#readme"
+}
