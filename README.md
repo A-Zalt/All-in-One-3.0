@@ -8,7 +8,7 @@ Invite link: [Click here](https://discord.com/oauth2/authorize?client_id=6706821
 If you speak any language the bot has not been translated to, feel free to make a pull request.
 
 ## TODO:
-- [ ] Full guild info command
+- [x] Full guild info command
 - [ ] Aliases for commands
 - [ ] Ability to customize prefix locally or on a server if provided with the Manage Server permission.
 - [ ] Translating usages and examples for commands
