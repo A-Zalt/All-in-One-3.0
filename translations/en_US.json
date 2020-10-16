@@ -17,7 +17,8 @@
         "info": "Shows basic bot info.",
         "invertcase": "Inverts case of text. All uppercase letters will become lowercase and vice-versa. The only argument is infinite-length, and is the text. ",
         "eval": "lorem ipsum",
-        "invite": "Gives you 3 invite links, one of which gives the bot admin permissions, one that gives the bot no permissions, and one, where you can customize all permissions",
+        "invite": "Gives you 3 invite links, one of which gives the bot admin permissions, one that gives the bot no permissions, and one, where you can customize all permissions.",
+        "invert": "Inverts an image. The only argument must be sent in the form of an attachment, and is the image that should be inverted.",
         "help": "View the list of categories, a list of commands in a certain category or meta information of a certain command.",
         "kick": "Kick a member from the server you're in. Requires the Kick Members permission. If username contains spaces, enclose it behind \" to be able to kick the person. You can also use flags before the reason. If the flag is -e, it will search through usernames to be exactly like the one you provided. If the flag is -i, it will search through usernames to include your argument. If there is no flag, it will search through usernames to start with your argument. In all cases, it is always case-insensitive.",
         "ping": "Checks whether the bot is alive and shows the latency in milliseconds.",
@@ -33,7 +34,8 @@
         "info": "Info",
         "mod": "Moderation",
         "util": "Utility",
-        "textformat": "Text formatting"
+        "textformat": "Text formatting",
+        "img": "Image editing"
     },
     "invoked_by": "Invoked by {tag}",
 
@@ -192,5 +194,9 @@
         "us-west": "US West"
     },
     "mfalevels": ["None", "Low", "Medium", "High", "Highest"],
-    "premiumtiers": ["None", "Level 1", "Level 2", "Level 3"]
+    "premiumtiers": ["None", "Level 1", "Level 2", "Level 3"],
+
+    "invert_title": "Inverting images",
+    "invert_notenoughargs": "You must provide an attachment (only the first one will be inverted)!",
+    "invert_error": "Could not invert the image!"
 }
