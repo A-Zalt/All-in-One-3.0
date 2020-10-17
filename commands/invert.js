@@ -20,20 +20,18 @@ module.exports = {
         }
         (async ()=>{
             try {
-                let img = await Canvas.loadImage(message.attachments.first().url);
-                const canvas = new Canvas.Canvas(message.attachments.first().width, message.attachments.first().height, "png");
-                const ctx = canvas.getContext("2d");
-                ctx.drawImage(img, 0, 0);
-                let imgdata = ctx.getImageData(0, 0, message.attachments.first().width, message.attachments.first().height);
-                let data = imgdata.data
-                for(i=0;i<data.length;i+=4) {
-                    imgdata.data[i] = 255-data[i]
-                    imgdata.data[i+1] = 255-data[i+1]
-                    imgdata.data[i+2] = 255-data[i+2]
+                let img = await Canvas.loadImage(message.attachments.first().url)
+                const canvas = new Canvas.Canvas(message.attachments.first().width, message.attachments.first().height, "png")
+                const ctx = canvas.getContext("2d")
+                ctx.drawImage(img, 0, 0)
+                let imgdata = ctx.getImageData(0, 0, message.attachments.first().width, message.attachments.first().height)
+                for(i=0;i<imgdata.data.length;i+=4) {
+                    imgdata.data[i] = 255-imgdata.data[i]
+                    imgdata.data[i+1] = 255-imgdata.data[i+1]
+                    imgdata.data[i+2] = 255-imgdata.data[i+2]
                 }
                 ctx.putImageData(imgdata, 0, 0)
-                const buffer = canvas.toBuffer();
-                console.log("СУКА ЧТО Я ДЕЛАЮ НЕ ТАК")
+                const buffer = canvas.toBuffer()
                 message.channel.send(
                     new Discord.MessageAttachment(buffer)
                 )
