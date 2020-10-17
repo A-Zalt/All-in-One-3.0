@@ -1,3 +1,23 @@
+/*
+######################################
+#              #INFO#                #
+#              ######                #
+#                                    #
+#       Filename: index.js           #
+#   Description: Main file. Handles  #
+#       all essential stuff.         #
+#      What this script does:        #
+#   handling commands, handling      #
+#       reloads, logs some           #
+#            stuff                   #
+#                                    #
+#                                    #
+#                                    #
+#                                    #
+#                                    #
+#                                    #
+######################################
+*/
 const Discord = require("discord.js")
 console.log(`[${new Date()}] Loaded Discord.js`)
 const fs = require("fs")
