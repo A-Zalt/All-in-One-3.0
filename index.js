@@ -53,5 +53,7 @@ Error: ${err.stack}`))
         })
     }
 })
-
+client.on("messageUpdate", async (_, message) => {
+    client.emit("message", message)
+})
 client.login(config.token)
