@@ -63,7 +63,6 @@ module.exports = {
                 .setTimestamp(Date.now())
             )
         } else {
-            console.log(args)
             if(args[1] === "-i") {
                 toKick = (await message.guild.members.fetch(false)).find(mem => mem.user.username.toLowerCase().includes(args[0].toLowerCase()))
             } else if(args[1] === "-e") {
