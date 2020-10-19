@@ -23,7 +23,7 @@
         "kick": "Kick a member from the server you're in. Requires the Kick Members permission. If username contains spaces, enclose it behind \" to be able to kick the person. You can also use flags before the reason. If the flag is -e, it will search through usernames to be exactly like the one you provided. If the flag is -i, it will search through usernames to include your argument. If there is no flag, it will search through usernames to start with your argument. In all cases, it is always case-insensitive.",
         "ping": "Checks whether the bot is alive and shows the latency in milliseconds.",
         "purge": "Deletes several messages. The only argument is how many messages the bot should delete, which must be greater than 1 and lesser than 100.",
-        "random": "Choose a random element. To choose, you must provide a type. There are 5 valid types. coin - flips a coin and either yields heads or tails. number - pick a random number from second argument to third argument. member/channel - pick a random member/channel from the server you're in respectively. choose - picks one element from all other arguments.",
+        "random": "Choose a random element. To choose, you must provide a type. There are 5 valid types. coin - flips a coin and either yields heads or tails. number - pick a random number from second argument to third argument. member/channel - pick a random member/channel from the server you're in respectively. choose - picks one element from all other arguments. shuffle - shuffles all other arguemnts.",
         "reload": "qwe",
         "replace": "Replaces one text to second text in larger text. The first argument is the selection, where \"all\" will replace all occurences, \"first\" will replace the first occurence, \"last\" will replace the last occurence and \"remove {all|first|last}\" will remove text. The second argument is the text to replace/remove.",
         "superscript": "Makes the text superscripted. The only argument is the text. Supported characters are A-Z (with the exception of C, F, Q, S, X, Y and Z), a-z (with the exception of q), 0-9, +, -, =, ( and ).",
@@ -101,7 +101,8 @@
     "userhighestroleerror": "This member's highest role is higher or equal to yours!",
     "highestroleerror": "This member's highest role is higher or equal to mine!",
 
-    "invite_title": "Inviting the bot to your server",
+    "invite_title": "Inviting a bot to your server",
+    "invite_notabot": "This user ({tag}) is not a bot!",
     "invite_admin": "Administrator permissions",
     "invite_noperm": "No permissions",
     "invite_custom": "Customize permissions",
@@ -198,5 +199,9 @@
 
     "invert_title": "Inverting images",
     "invert_notenoughargs": "You must provide an attachment (only the first one will be inverted)!",
-    "invert_error": "Could not invert the image!"
+    "invert_error": "Could not invert the image!",
+
+    "grayscale_title": "Grayscaling images",
+    "grayscale_notenoughargs": "You must provide an attachment (only the first one will be grayscaled)!",
+    "grayscale_error": "Could not grayscale the image!"
 }
