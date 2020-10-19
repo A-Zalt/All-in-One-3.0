@@ -17,7 +17,7 @@
         "invert": "Инвертирует изображение. Единственный аргумент должен быть прикреплён, и им является изображение, которое нужно инвертировать",
         "invertcase": "Инвертирует регистр текста. Все буквы верхнего регистра станут буквами нижнего регистра и наоборот. Единственный аргумент может быть любой длины, и им является текст.",
         "eval": "Lorem ipsum. Dolor sit amet!",
-        "invite": "Даёт 3 ссылки приглашения бота, в одной боту даются все права, во второй боту не даётся прав, а в третьей права можно кастомизировать.",
+        "invite": "Пригласить любого бота. Единственным аргументом является бот, которого нужно пригласить. Если аргумент не указан, то приглашаться будет сам бот. Даёт 3 ссылки приглашения бота, в одной боту даются все права, во второй боту не даётся прав, а в третьей права можно кастомизировать.",
         "help": "View the list of categories, a list of commands in a certain category or meta information of a certain command.",
         "kick": "Kick a member from the server you're in. Requires the Kick Members permission. If username contains spaces, enclose it behind \" to be able to kick the person. You can also use flags before the reason. If the flag is -e, it will search through usernames to be exactly like the one you provided. If the flag is -i, it will search through usernames to include your argument. If there is no flag, it will search through usernames to start with your argument. In all cases, it is always case-insensitive.",
         "ping": "Checks whether the bot is alive and shows the latency in milliseconds.",
