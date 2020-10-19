@@ -14,6 +14,7 @@
         "calc": "Calculates any math expression using MathJS.",
         "case": "Converts text into upper or lower case. The first argument is the case to change the text to (lower/upper/capitalize). The second argument is the selection. Use \"everything\" to select the whole text, use \"before <{text}>\" to select everything before the first occurence of <{text}>, use \"after <{text}>\" to select everything after the first occurence of <{text}>, use \"all <{text}>\" to select all occurences of <{text}>, use \"not <{text}>\" to select everything but <{text}>.",
         "code": "Executes code using an API (not an open eval). The first argument is the programming language, the second argument is code. If using a codeblock, you must go to the next line directly after ``` and before closing the codeblock, you must go to the next line as well.",
+        "grayscale": "(Experimental command) Makes the image grayscaled. At the moment you can only provide an attachment, just like with the invert command.",
         "info": "Shows basic bot info.",
         "invertcase": "Inverts case of text. All uppercase letters will become lowercase and vice-versa. The only argument is infinite-length, and is the text. ",
         "eval": "lorem ipsum",
