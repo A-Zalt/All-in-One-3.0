@@ -9,6 +9,7 @@ If you speak any language the bot has not been translated to, feel free to make 
 
 ## TODO:
 - [x] Full guild info command
+- [ ] At least 5 imaging commands
 - [ ] Aliases for commands
 - [ ] Ability to customize prefix locally or on a server if provided with the Manage Server permission.
 - [ ] Translating usages and examples for commands
